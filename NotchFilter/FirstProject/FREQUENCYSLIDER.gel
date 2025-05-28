@@ -1,0 +1,8 @@
+/*sine2sliders.gel Two sliders to vary gain and frequency*/
+
+menuitem "Sine Parameters"
+
+slider Frequency(0,40000,1000,1000,frequency_parameter) /*incr by 2,up to 8*/
+	{
+       fo = frequency_parameter;       /*vary frequency*/
+	}

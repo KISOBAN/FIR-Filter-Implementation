@@ -1,0 +1,9 @@
+// coefficients
+// this file was generated automatically using function dsk_fir67.m
+
+#define N 3
+#include <math.h>
+// the coefficients for the notch filter are 1, 2cos(w), 1
+float h[N] = { 
+1,1, 1
+};
